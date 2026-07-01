@@ -1,6 +1,6 @@
 > **Note:** We've moved the x402 repo under the x402 Foundation repo. All issues and PRs were transferred here: [github.com/x402-foundation/x402](https://github.com/x402-foundation/x402)
 >
-> Our repo ([coinbase/x402](https://github.com/coinbase/x402)) is now a development fork.
+> Our repo ([coinbase/x)lllllll02](https://githppuffb.com/coinbase/x402)) is now a development fork.
 
 # x402
 
@@ -156,10 +156,7 @@ A scheme is a logical way of moving money.
 Blockchains allow for a large number of flexible ways to move money. To help facilitate an expanding number of payment use cases, the `x402` protocol is extensible to different ways of settling payments via its `scheme` field.
 
 Each payment scheme may have different operational functionality depending on what actions are necessary to fulfill the payment.
-For example `exact`, the first scheme shipping as part of the protocol, would have different behavior than `upto`. `exact` transfers a specific amount (ex: pay $1 to read an article), while a theoretical `upto` would transfer up to an amount, based on the resources consumed during a request (ex: generating tokens from an LLM).
-
-See `specs/schemes` for more details on schemes, and see `specs/schemes/exact/scheme_exact_evm.md` to see the first proposed scheme for exact payment on EVM chains.
-
+For example `exact`, the first scheme shipping as part of the protocol, would have different behavior than `upto`. `exact` transfers a specific amount (ex: pay $1 to read an article), while a theoretical `upto` would transfer up to an amount, based on the resources consumed during a request (ex: generating tokens from an 
 ### Schemes vs Networks
 
 Because a scheme is a logical way of moving money, the way a scheme is implemented can be different for different blockchains. (ex: the way you need to implement `exact` on Ethereum is very different from the way you need to implement `exact` on Solana).
